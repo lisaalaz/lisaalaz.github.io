@@ -106,6 +106,10 @@ h2 {
   font-size: 22px;
 }
 
+small {
+  font-size: 80%;
+}
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
