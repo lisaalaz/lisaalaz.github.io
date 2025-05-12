@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.5 26.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        font-family: Helvetica;
+      }
+    </style>
+  </defs>
+  <g id="Group_232" data-name="Group 232" transform="translate(-523.21 -994.02)">
+    <g id="Group_203" data-name="Group 203" transform="translate(395.26 768.07)">
+      <path id="Path_18" data-name="Path 18" class="cls-1" d="M141.2,251.7a12.5,12.5,0,1,1,12.5-12.5A12.5,12.5,0,0,1,141.2,251.7Z" transform="translate(0 0)"/>
+    </g>
+    <text id="cv" class="cls-2" transform="translate(536 1011)"><tspan x="-7" y="0">cv</tspan></text>
+  </g>
+</svg>
