@@ -117,6 +117,14 @@ small {
   font-size: 32px;
 }
 
+.menu {
+  align-self: left;
+  align-items: left;
+  margin: 0;
+  width: 40%;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
 .one {
   width: 160px;
   height: 160px;
