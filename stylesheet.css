@@ -209,6 +209,7 @@ nav label {
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
+body:hover .dropdown-content {display: none;}
 
 
 .dropbtn a {
