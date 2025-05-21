@@ -212,6 +212,14 @@ nav label {
 .dropdown-content:hover .dropdown-content {display: none;}
 body:hover .dropdown-content {display: none;}
 
+/* .dropdown-menu {
+  display: none !important;
+}
+
+.open .dropdown-menu {
+  display: block !important;
+} */
+
 
 .dropbtn a {
   text-decoration: none;
