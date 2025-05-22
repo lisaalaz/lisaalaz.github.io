@@ -212,6 +212,11 @@ nav label {
 .dropdown-content:hover .dropdown-content {display: none;}
 body:hover .dropdown-content {display: none;}
 a:hover .dropdown-content {display: none;}
+table:hover .dropdown-content {display: none;}
+td:hover .dropdown-content {display: none;}
+th:hover .dropdown-content {display: none;}
+tr:hover .dropdown-content {display: none;}
+p:hover .dropdown-content {display: none;}
 
 /* .dropdown-menu {
   display: none !important;
