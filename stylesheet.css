@@ -162,7 +162,7 @@ nav ul li {
   justify-content: space-between;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
   .full-menu {
     display: none;
   }
@@ -172,4 +172,4 @@ nav ul li {
   nav {
     display: none;
   }
-}
+} */
