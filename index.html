@@ -16,6 +16,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="data:image/svg+xml, <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤔</text></svg>">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+      html { scrollbar-gutter: stable; }
+
+      /* Smooth page switching: header and divider stay still, the rest fades.
+         Only the old page's header is shown during the switch, so nothing overlaps */
+      @view-transition { navigation: auto; }
+      .full-menu { view-transition-name: site-header; }
+      hr { view-transition-name: site-divider; }
+      ::view-transition-group(site-header),
+      ::view-transition-group(site-divider),
+      ::view-transition-old(site-header),
+      ::view-transition-old(site-divider) { animation: none; }
+      ::view-transition-new(site-header),
+      ::view-transition-new(site-divider) { display: none; }
+      ::view-transition-old(root),
+      ::view-transition-new(root) { animation-duration: 0.2s; }
+    </style>
 
   </head>
 
@@ -64,7 +81,7 @@
                     at Cohere hosted by <a href="https://www.maxbartolo.com/", target="_blank">Max Bartolo</a> (2024), 
                     and at Google hosted by <a href="https://www.mensink.nu/", target="_blank">Thomas Mensink</a> (2023) and <a href="https://hamzaharkous.com/", target="_blank">Hamza Harkous</a> (2022).
                     <br><br>
-                    I host <a href="https://calendly.com/lisa-alazraki20-imperial/lisa-s-office-hours", target="_blank">office hours</a> during term time for general questions on grad applications and getting into research. 
+                    I host <a href="hours.html">office hours</a> during term time for general questions on grad applications and getting into research. 
                     Non-standard backgrounds especially welcome!
                   </p>
 
@@ -414,7 +431,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:center;font-size:small;">
-                  Forked from Jon Barron's <a href="https://github.com/jonbarron/jonbarron_website", target="_blank">website</a>.
+                  Forked from Jon Barron's <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">website</a>.
                 </p>
               </td>
             </tr>
